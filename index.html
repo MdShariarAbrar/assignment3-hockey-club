@@ -11,6 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
+    <!-- =========================================================================
+    =========font awesome icon================================================ -->
+    <script src="https://kit.fontawesome.com/e5da5fd8e9.js" crossorigin="anonymous"></script>
+
 
     <!-- =========================================================================
     =================daisyui and tialwind link==================================== -->
@@ -24,12 +28,96 @@
         .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
+        .text-my-red{
+            color: #FF4240;
+        }
+        .bg-my-red{
+            background: #FF4240;
+        }
+        .text-my-black{
+            color: #131318;
+        }
+        .text-my-gray{
+            color: rgba(19, 19, 24, 0.60);
+        }
     </style>
 
 
 </head>
 
 <body class="font-manrope">
+
+    <!-- ==============================================================================
+    ================header section================================================== -->
+    <header class="w-full lg:max-w-[81.25%] mx-auto">
+        <!-- =======================================
+        ========nav bar========================== -->
+        <nav >
+            <!-- hamberger and dropdown menu for small device -->
+            <div class="flex justify-between items-center mx-5 my-8 lg:hidden">
+                <div class="navbar bg-base-100 w-auto  ">
+                    <div class="navbar-start w-auto">
+                      <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                        </div>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                          <li><a>Home</a></li>
+                          <li><a>About</a></li>
+                          <li><a>Pages</a></li>
+                          <li><a>Blog</a></li>
+                          <li><a>Contact</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="navbar-center">
+                      <a class="btn btn-ghost text-2xl font-extrabold gap-0 text-my-black">Hockey<span class="text-my-red">'</span>s</a>
+                    </div>
+                    
+                </div>
+                <div class="">
+                    <button class="px-6 py-4 rounded-lg font-bold text-lg text-white bg-my-red">Get Ticket</button>
+                </div>
+            </div>
+
+            <!-- ========================================
+            ===========navbar for large device========== -->
+            <div class="  hidden lg:flex justify-between items-center my-12">
+                <div>
+                    <h2 class="text-my-black font-extrabold text-4xl">Hockey<span class="text-my-red">'</span>s</h2>
+                </div>
+                <div>
+                    <ul class="flex gap-11 text-[#424247] font-normal">
+                        <li><a class="text-my-red">Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass mr-6 text-[#424247]" ></i>
+                    <button class="px-6 py-4 rounded-lg text-white bg-my-red">Get Ticket</button>
+                </div>
+            </div>
+
+
+        </nav>
+
+
+    </header>
+
+    <!-- ==============================================================================
+    ===============main section======================================================= -->
+    <main>
+
+    </main>
+
+    <!-- ===============================================================================
+    ===============footer section===================================================== -->
+    <footer>
+
+    </footer>
     
 </body>
 </html>
