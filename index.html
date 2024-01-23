@@ -49,12 +49,12 @@
 
     <!-- ==============================================================================
     ================header section================================================== -->
-    <header class="w-full lg:max-w-[81.25%] mx-auto">
+    <header class="w-full md:max-w-[81.25%] md:mx-auto">
         <!-- =======================================
         ========nav bar========================== -->
         <nav >
             <!-- hamberger and dropdown menu for small device -->
-            <div class="flex justify-between items-center mx-5 my-8 lg:hidden">
+            <div class="flex justify-between items-center mx-5 my-8 md:hidden">
                 <div class="navbar bg-base-100 w-auto  ">
                     <div class="navbar-start w-auto">
                       <div class="dropdown">
@@ -82,7 +82,7 @@
 
             <!-- ========================================
             ===========navbar for large device========== -->
-            <div class="  hidden lg:flex justify-between items-center my-12">
+            <div class="  hidden md:flex justify-between items-center my-12">
                 <div>
                     <h2 class="text-my-black font-extrabold text-4xl">Hockey<span class="text-my-red">'</span>s</h2>
                 </div>
@@ -106,7 +106,7 @@
 
         <!-- ============================================
         =========banner section===================== -->
-        <div class="mx-5 sm:mx-auto sm:relative">
+        <div class="mx-5 :mx-auto sm:relative">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                   <img src="Images/1.png" class="w-full" />
@@ -138,8 +138,41 @@
 
     <!-- ==============================================================================
     ===============main section======================================================= -->
-    <main>
+    <main class="px-5 w-full md:max-w-[81.25%] md:mx-auto">
+        <!-- ===================================
+        ====professional hockey club section==== -->
+        <hr class="mt-24 border-dashed">
+        <div class="w-full sm:max-w-[50%] sm:mx-auto text-center my-8">
+            <h2 class="text-my-black text-4xl font-extrabold ">Professional Hockeys Club</h2>
+            <p class="text-my-gray font-medium">This is one of the best hockey club in our country . We have many experienced couch and beautiful traing ground</p>
+        </div>
+        <hr class=" border-dashed mb-8">
 
+        <!-- progressbar section -->
+        <div class="flex flex-col text-center md:flex-row md:justify-around md:items-start md:gap-8">
+            <div class="mt-6">
+                <div class="radial-progress text-my-red" style="--value:87;" role="progressbar"><h3 class="text-my-black text-2xl font-extrabold">87%</h3></div>
+                <h3 class="text-xl font-semibold text-my-black">Prayer Facility</h3>
+                <p class="font-normal text-my-gray">We are careful about your religious practices. Here you will get all kind of prayer facilities.</p>
+            </div>
+
+            <div class="mt-6">
+                <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar"><h3 class="text-my-black text-2xl font-extrabold">95%</h3></div>
+                <h3 class="text-xl font-semibold text-my-black">Experienced Coach</h3>
+                <p class="font-normal text-my-gray">We are careful about your learning. Here you will get all kind of coaching support facilities.</p>
+            </div>
+
+            <div class="mt-6">
+                <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar"><h3 class="text-my-black text-2xl font-extrabold">90%</h3></div>
+                <h3 class="text-xl font-semibold text-my-black">Senior Player</h3>
+                <p class="font-normal text-my-gray">We are careful about your communication skill and behavior. Here you can share you with our senior player.</p>
+            </div>
+            <div class="mt-6">
+                <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar"><h3 class="text-my-black text-2xl font-extrabold">80%</h3></div>
+                <h3 class="text-xl font-semibold text-my-black">Training Ground</h3>
+                <p class="font-normal text-my-gray">We are careful about y practice. Here you will get amazing training ground.</p>
+            </div>
+        </div>
     </main>
 
     <!-- ===============================================================================
